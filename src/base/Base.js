@@ -1,0 +1,1 @@
+// Fichier Base ou seront stockées les élements les plus communs du DOM HTML

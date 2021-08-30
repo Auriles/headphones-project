@@ -1,0 +1,1 @@
+// Ici seront stockées toutes les variables
