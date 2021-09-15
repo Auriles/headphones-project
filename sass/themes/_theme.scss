@@ -14,3 +14,68 @@ $text-gradient: linear-gradient(hsl($hue-color, 4%, 24%), 4%, 24%);
 $scroll-thumb-color: hsl($hue-color, 4%, 16%);
 $scroll-thumb-color-alt: hsl($hue-color, 4%, 20%);
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: $header-height 0 0 0 0;
+    font-family: $body-font;
+    font-size: $normal-font-size;
+    background-color: $body-color;
+    color: $text-color;
+}
+
+h1,
+h2,
+h3 {
+    color: $title-color;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button,
+input {
+    border: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+// --------- Reusable classes ---------
+
+.section {
+    padding: 4rem 0 2rem;
+}
+
+.section__title {
+    font-size: $bigger-font-size;
+    text-align: center;
+    margin-bottom: $mb-2-5;
+}
+
+.section__title-gradient {
+    background: $text-gradient;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}

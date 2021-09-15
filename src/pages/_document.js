@@ -33,7 +33,7 @@ export default class MyDocument extends Document {
         <Head>
 
           {/* FAVICON */}
-          <link rel="stylesheet" href="../../public/images/favicon.png" type="image/x-icon" />
+          <link rel="stylesheet" href="../images/favicon.png" type="image/x-icon" />
 
           {/* REMIXICONS */}
           <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
@@ -42,6 +42,10 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+
+          <script id="__bs_script__">
+            {/* <![CDATA[document.write("<script async src='http://HOST:4000/browser-sync/browser-sync-client.js?v=2.27.5'><\/script>".replace("HOST", location.hostname));]]> */}
+          </script>
         </body>
       </Html>
     );
